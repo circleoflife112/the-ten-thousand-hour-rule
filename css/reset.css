@@ -72,6 +72,7 @@ body {
   font-family: "GmarketSansMedium", "Open Sans", sans-serif;
   font-size: 1.6;
   color: var(--text-color);
+  line-height: 2.1;
 }
 
 img {

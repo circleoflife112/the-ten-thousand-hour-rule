@@ -11,26 +11,34 @@ main,
 footer {
   max-width: 360px;
   margin: 0 auto;
+  margin-bottom: 70px;
+  border: solid 1px red;
 }
 
 .hero-section {
   width: 100%;
   height: 100%;
-  position: relative;
   padding: 1.6rem;
-  background: url(../images/clock.png) no-repeat center / 130px;
 }
 
 .hero-section h1 {
   display: none;
 }
 
-.clock-img {
-  position: absolute;
-  top: 0;
+.title-img-wrap {
   width: 100%;
   height: 100%;
+  /* backround에 img와 repeat position size 를 한번에 작성하려면 background 속성을 사용해야 합니다 */
+  background: url(../images/clock.png) no-repeat center / 130px;
+}
+
+.title-img {
+  height: 130px;
+  width: 100%;
   object-fit: contain;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .hero-section h2 {
@@ -38,6 +46,23 @@ footer {
   color: var(--point-text-color);
   font-weight: normal;
   font-size: 2.2rem;
+  margin-top: 2.2rem;
+}
+
+/* main section start */
+
+main section {
+  margin-bottom: 60px;
+}
+
+main section:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.intro-section {
+  width: 100%;
+  height: auto;
+  background: url(../images/quotes.png) no-repeat center / 100%;
 }
 
 footer {
