@@ -62,6 +62,7 @@ a {
   --point-text-color: #f5df4d;
   --button-color: #fcee21;
   --input-text-color: #babcbe;
+  --button-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 html {
@@ -72,12 +73,21 @@ body {
   font-family: "GmarketSansMedium", "Open Sans", sans-serif;
   font-size: 1.6;
   color: var(--text-color);
-  line-height: 2.1;
+  line-height: 2;
+  letter-spacing: 0.5px;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+input {
+  appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: #babcbe;
 }
 
 button {
