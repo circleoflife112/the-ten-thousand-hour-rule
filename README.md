@@ -12,6 +12,8 @@ HTML5 시멘틱 태그 `section` `footer` `aside` `form` 등을 적극 활용하
 
 color, box-shadow 등을 CSS 변수로 지정해 유지보수에 용이합니다.
 
+### CSS 클래스 네이밍 : 케밥 케이스(kebab-case) 적용
+
 ## 구현 과정
 
 ### 모바일 레이아웃 구성

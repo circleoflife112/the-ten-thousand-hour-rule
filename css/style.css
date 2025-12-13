@@ -234,8 +234,8 @@ footer p {
 /* 가로방향의 태블릿 */
 @media (min-width: 768px) {
   .calculator-section label,
-  .calculator-section p,
   .calculator-section input,
+  .calculator-section p,
   .calculator-section button,
   .action-section button {
     font-size: 1.8rem;
