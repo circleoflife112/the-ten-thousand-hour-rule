@@ -3,21 +3,24 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
-  padding: 36px 10px;
+  padding: 36px 15px;
+  margin: 0 auto;
 }
 
 header,
 main,
 footer {
-  max-width: 360px;
+  width: 100%;
+  max-width: 770px;
   margin: 0 auto;
   margin-bottom: 70px;
 }
 
 .hero-section {
-  width: 100%;
+  max-width: 564px;
   height: 100%;
   padding: 1.6rem;
+  margin: 0 auto;
 }
 
 .hero-section h1 {
@@ -61,8 +64,11 @@ main section:nth-child(3) {
 }
 
 .intro-section {
-  width: 100%;
+  min-width: fit-content;
+  max-width: 485px;
   height: auto;
+  margin: auto;
+  margin-bottom: 60px;
   background: url(../images/quotes.png) no-repeat center / 100%;
 }
 
@@ -77,8 +83,13 @@ h3 {
   font-size: 1.4rem;
 }
 
+.calculator-section label {
+  display: block;
+  margin: 20px;
+}
+
 .calculator-section input {
-  width: 156px;
+  min-width: 156px;
   text-align: center;
   padding: 1.2rem 0;
   margin: 0 8px;
@@ -93,7 +104,11 @@ h3 {
 }
 
 .calc-btn-wrap {
-  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
 
 button {
@@ -105,8 +120,12 @@ button {
   border-radius: 12px;
 }
 
+button:hover {
+  background-color: #ffffff;
+}
+
 .calculator-section button {
-  margin: 50px 0;
+  margin-top: 50px;
   width: 240px;
   padding: 20px 50px;
   font-size: 1.4rem;
@@ -114,11 +133,13 @@ button {
 }
 
 .click-icon {
-  width: 48px;
-  height: 48px;
+  max-width: 48px;
+  height: auto;
   object-fit: contain;
-  position: absolute;
-  top: 50%;
+}
+
+.result-section {
+  margin-top: 50px;
 }
 
 .result-section output {
@@ -136,9 +157,15 @@ button {
   background-color: #ffffff;
 }
 
+.action-section button:nth-child(2):hover {
+  background-color: var(--button-color);
+}
+
 /* footer start */
 
 footer {
+  width: 365px;
+  margin-bottom: 0;
   font-family: "Noto Sans KR";
   font-style: normal;
   display: flex;
@@ -148,7 +175,7 @@ footer {
 }
 
 footer .weniv-logo {
-  width: 168px;
+  width: 125px;
   height: auto;
   object-fit: contain;
 }
@@ -158,4 +185,46 @@ footer p {
   font-weight: 400;
   letter-spacing: normal;
   line-height: normal;
+}
+
+@media (min-width: 992px) {
+  header,
+  main,
+  footer {
+    max-width: 770px;
+    height: auto;
+  }
+
+  main > section {
+    margin-bottom: 120px;
+  }
+
+  .hero-section h2 {
+    font-size: 3.3rem;
+  }
+
+  .calculator-section label,
+  .calculator-section p,
+  .calculator-section input,
+  .calculator-section button,
+  .action-section button {
+    font-size: 2.4rem;
+  }
+
+  .calculator-section form {
+    margin-bottom: 100px;
+  }
+
+  .calculator-section .result-section {
+    margin-top: 100px;
+  }
+
+  .calculator-section button {
+    width: auto;
+    max-width: 100%;
+  }
+
+  .result-section output {
+    font-size: 7.2rem;
+  }
 }
