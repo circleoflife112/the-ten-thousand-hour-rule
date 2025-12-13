@@ -17,6 +17,7 @@ aside {
   transition: all 1s;
 }
 
+h3,
 h4 {
   display: none;
 }
@@ -48,7 +49,7 @@ h4 {
   position: relative;
 }
 
-.hero-section h2 {
+.hero-section p {
   font-family: "OTEnjoystoriesBA", serif;
   color: var(--point-text-color);
   font-weight: normal;
@@ -241,6 +242,10 @@ footer p {
     font-size: 1.8rem;
   }
 
+  .hero-section p {
+    font-size: 3rem;
+  }
+
   .result-section output {
     font-size: 3.6rem;
   }
@@ -271,7 +276,7 @@ footer p {
     margin-bottom: 120px;
   }
 
-  .hero-section h2 {
+  .hero-section p {
     font-size: 3.3rem;
   }
 

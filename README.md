@@ -27,3 +27,13 @@ color, box-shadow 등을 CSS 변수로 지정해 유지보수에 용이합니다
 ### media query 적용
 
 가로형 태블릿 화면, 데스크탑 두가지 단계의 media query 적용
+
+section 안에 h(heading)요소가 하나만 들어가는 걸 권장드립니다,
+section 이 나눠지면 h(heading)요소는 필수입니다.
+
+1. display : none; >> 하지 마세요. 스크린 리더에서 읽을 수 없습니다.
+2. padding or margin: -99999 해서 : 그러나 메모리 부하 : 옛날
+
+3. naver 쓰는 방법 : .blind > 클래스명이 조금 구식이지만 이 클래스에 있는 속성 그대로 베껴 쓰면 됩니다.
+
+4.
