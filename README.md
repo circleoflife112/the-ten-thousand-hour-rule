@@ -36,4 +36,5 @@ section 이 나눠지면 h(heading)요소는 필수입니다.
 
 3. naver 쓰는 방법 : .blind > 클래스명이 조금 구식이지만 이 클래스에 있는 속성 그대로 베껴 쓰면 됩니다.
 
-4.
+4. screen reader only
+   accecibiltiy
