@@ -15,6 +15,7 @@ aside {
   max-width: 770px;
   margin: 0 auto;
   margin-bottom: 70px;
+  transition: all 1s;
 }
 
 h4 {
