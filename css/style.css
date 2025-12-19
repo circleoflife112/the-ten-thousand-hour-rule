@@ -19,7 +19,8 @@ aside {
 
 .a11y-hidden {
   position: absolute;
-  clip: nect(0 0 0 0);
+  /* nect 인지 gpt에게 */
+  clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;

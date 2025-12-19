@@ -1,0 +1,8 @@
+:root {
+  --background-color: #5b2386;
+  --text-color: #ffffff;
+  --point-text-color: #f5df4d;
+  --button-color: #fcee21;
+  --input-text-color: #babcbe;
+  --button-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+}

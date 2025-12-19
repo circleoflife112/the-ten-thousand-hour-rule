@@ -32,6 +32,8 @@ color, box-shadow 등을 CSS 변수로 지정해 유지보수에 용이합니다
 
 ## 구현 과정
 
+머메이드 작성
+
 ### 모바일 레이아웃 구성
 
 접근성이 높은 모바일 비율에 맞춰 구성
@@ -54,3 +56,20 @@ section 이 나눠지면 h(heading)요소는 필수입니다.
 
 4. screen reader only
    accecibiltiy
+
+### WBS
+
+gantt
+title 프로젝트 작업 타임라인
+dateFormat YYYY-MM-DD
+axisFormat %m/%d
+
+    section 초기 설정
+    Github repository 생성 및 HTML 작성 :done, a1, 2024-12-10, 1d
+
+    section 스타일링
+    CSS 모바일 레이아웃 작성 :done, a2, 2024-12-11, 1d
+    CSS 반응형 Media Query 작성 및 배포 :done, a3, 2024-12-12, 1d
+
+    section 마무리
+    컨펌 및 수정 후 커밋 :done, a4, 2024-12-13, 1d
