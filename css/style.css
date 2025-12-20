@@ -14,12 +14,10 @@ aside {
   max-width: 770px;
   margin: 0 auto;
   margin-bottom: 70px;
-  transition: all 1s;
 }
 
 .a11y-hidden {
   position: absolute;
-  /* nect 인지 gpt에게 */
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
@@ -32,10 +30,6 @@ aside {
   height: 100%;
   padding: 1.6rem;
   margin: 0 auto;
-}
-
-.hero-section h1 {
-  display: none;
 }
 
 .title-img-wrap {
