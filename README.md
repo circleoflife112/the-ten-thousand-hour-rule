@@ -19,7 +19,11 @@
 
 ### 시멘틱 마크업
 
-1. HTML5 시멘틱 태그 `section` `footer` `aside` `form` 등을 적극 활용하여 웹 접근성을 높였습니다.
+1. 의미있는 시맨틱 태그 `section` `aside` `footer` 를 선택
+
+### 웹 접근성 고려
+
+1. heading 태그의 올바른 활용 - `class=a11y-hidden` 작성
 
 ### 모바일 퍼스트 레이아웃 구성
 
