@@ -77,8 +77,12 @@ main section:nth-child(3) {
   background: url(../images/quotes.png) no-repeat center / 100%;
 }
 
-h3 {
-  font-size: 1.4rem;
+.intro-section h2 {
+  font-family: "GmarketSansMedium";
+}
+
+.intro-section h2 strong {
+  font-family: "GmarketSansBold", sans-serif;
 }
 
 /* calculator section start */
