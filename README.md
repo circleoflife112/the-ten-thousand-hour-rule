@@ -24,6 +24,7 @@
 ### 웹 접근성 고려
 
 1. heading 태그의 올바른 활용 - `class=a11y-hidden` 작성
+   ![웹 접근성](./readme-img/a11y-hidden.png)
 
 ### 모바일 퍼스트 레이아웃 구성
 
